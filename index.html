@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="HandheldFriendly" content="true"/>
+  	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0,maximum-scale=1.0,user-scalable=yes"/>
+    <meta name="google-site-verification" content="gDb-YOtZEK29QgE-WWm28oUaYZxoWLPmGtnhErwodAc" />
+
+    <!-- Open Graph data -->
+		<meta property="og:title" content="27AE60"/>
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://www.27ae60.com" />
+		<meta property="og:image" content="http://www.27ae60.com/assets/images/banner.jpg" />
+		<meta property="og:description" content="We help startups Design, Build & Ship their applications"/>
+		<meta property="og:site_name" content="Application Design & Development consulting" />
+
+    <!-- Twitter Card data -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:url" content="http://www.27ae60.com">
+		<meta name="twitter:title" content="27AE60">
+		<meta name="twitter:description" content="We help startups Design, Build & Ship their applications">
+		<meta name="twitter:image" content="http://www.27ae60.com/assets/images/banner.jpg">
+
+    <!-- Schema.org markup for Google+ -->
+		<meta itemprop="name" content="27AE60">
+		<meta itemprop="description" content="We help startups Design, Build & Ship their applications">
+		<meta itemprop="image" content="http://www.27ae60.com/assets/images/banner.jpg">
+
+    <title>27AE60 | Home</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/homepage.min.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <a href="index.html">
+          <img class="logo" src="assets/images/logo.jpg" alt="27AE60's logo"/>
+        </a>
+        <p class="description description--large descrpition--italic">
+          <span class="greet-message">Good Morning</span>, <br/>
+          Welcome to 27AE60. <br/>
+          I'm <span class="selected-member">Rabi</span>. Let me tell you about us...
+        </p>
+      </header>
+      <section>
+        <h1 class="goal">“We help startups Design, Build & Ship their applications”</h1>
+
+        <p class="description description--large">
+          We are a small team of three members. Our expertise is a blend of Design and Technology and focus on Human-Centric approach. <br/><br/>
+
+          Building ‘Prototypes’, ‘Tools’ and ‘Automation’ as a part of our development process has enabled us to get our tasks completed on scheduled time. Our first choice in technology stacks for front-end environment is <strong>ReactJS</strong>, <strong>BEM</strong> for organising Stylesheets and for web services, we prefer <strong>NodeJS</strong> and <strong>GoLang</strong>. <br/><br/>
+
+          Design, on the other hand, involves a continuous process of discussions, sketches, mock-ups,  wireframes based on principles of <strong>Information Architecture</strong>. We believe ‘content’ is the pivotal element in any design. We love <strong>Sketch</strong> and Affinity Designer. <br/><br/>
+
+          Lets meet the Team.
+        </p>
+      </section>
+      <section>
+        <ol class="team">
+          <li class="team__member member">
+            <h2 class="member__name">Jaison Justus</h2>
+            <p class="member__designation">Designer</p>
+            <p class="member__description">
+              <a target="_blank" href="https://www.behance.net/jaisonjustus">Behance</a>,
+              <a target="_blank" href="https://github.com/jaisonjustus">Github</a>
+            </p>
+            <p class="member__description">Art, User Interface, User Experience, People, Illustration, Web, CSS, Javascript, Music, Philately, Stefan Sagmeister, Experimental</p>
+          </li>
+          <li class="team__member member">
+            <h2 class="member__name">Rabi C Shah</h2>
+            <p class="member__designation">Front-End Engineer</p>
+            <p class="member__description"><a target="_blank" href="https://github.com/rabishah">Github</a></p>
+            <p class="member__description">Javascript, ReactJS, VIM, Node JS, DevOps, User Interface, User Experience, Open Source, Arsenal Fan, Nepal, Manga, Naruto</p>
+          </li>
+          <li class="team__member member">
+            <h2 class="member__name">Suyash Katiyar</h2>
+            <p class="member__designation">Web Service Engineer</p>
+            <p class="member__description"><a target="_blank" href="https://github.com/SKatiyar">Github</a></p>
+            <p class="member__description">GoLang, RethinkDB, NoSQL, DevOps, Open Source, Pink Floyd, Manga</p>
+          </li>
+        </ol>
+      </section>
+      <section>
+        <p class="description description--large">
+          We are happy to meet you.
+          <br/>
+          Write us about how can we help you <br/>
+          <a href = "mailto:hello@27ae60.com">hello@27ae60.com</a>.
+        </p>
+        <br/>
+        <br/>
+        <p class="description description--large">
+          We love receiving mails. Keep in touch.
+          <br/>
+          <br/>
+          Have a Nice Day!
+        </p>
+      </section>
+      <footer>
+        <ul class="footer__links-wrapper">
+          <li class="footer__link">
+            <a href="https://github.com/27AE60" target="_blank">27AE60 on Github</a>
+          </li>
+          <li class="footer__link">
+            <a href="courtesy.html">Courtesy</a>
+          </li>
+          <li class="footer__link">
+            <span class="bauhaus triangle"></span>
+            <span class="bauhaus square"></span>
+            <span class="bauhaus circle"></span>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script type="text/javascript">
+      window.onload = function()  {
+        greetings();
+        chooseATeamMemberToGreet();
+      }
+
+      function greetings() {
+        var greetMessage = '',
+            date = new Date();
+
+            if ( date.getHours() < 12 )  {
+                greetMessage = "Good Morning";
+            }
+            else if ( date.getHours() >= 12 && date.getHours() <= 17 ) {
+                greetMessage = "Good Afternoon";
+            }
+            else if ( date.getHours() > 17 && date.getHours() <= 24 )
+            {
+                greetMessage = "Good Evening";
+            }
+            else {
+                greetMessage = "Hello there";
+            }
+
+        document.getElementsByClassName('greet-message')[0].innerHTML = greetMessage;
+      };
+
+      function chooseATeamMemberToGreet()  {
+        var TeamMembers = ['Jaison', 'Rabi', 'Suyash'],
+            selected = TeamMembers[(Math.random() * (TeamMembers.length - 0) ) << 0];
+
+        document.getElementsByClassName('selected-member')[0].innerHTML = selected;
+      };
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-71375577-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
